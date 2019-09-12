@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos [
+<!ELEMENT equipos (equipo+)>
+<!ELEMENT equipo (enombre,ciudad,entrenador,jugador+)>
+<!ELEMENT enombre (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT entrenador (#PCDATA)>
+<!ELEMENT jugador (jnombre,nacionalidad)>
+<!ATTLIST jugador posicion CDATA  #IMPLIED>
+<!ELEMENT jnombre (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+
+]>
+<!-- Equipos de futbol -->
+<equipos>
+    <equipo>
+        <enombre>Chelsea Football Club</enombre>
+        <ciudad>Londres</ciudad>
+        <entrenador/>
+<!--         <jugadores> -->
+        <jugador posicion="portero">
+            <jnombre>Kepa</jnombre>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+        <jugador posicion="medio">
+            <jnombre>Ross</jnombre>
+            <nacionalidad>Inglés</nacionalidad>
+        </jugador>
+<!--        </jugadores>-->
+    </equipo>
+    <equipo>
+        <enombre>Real Madrid</enombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador/>
+        <jugador posicion="defensa">
+            <jnombre>Carvajal</jnombre>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+        <jugador posicion="delantero">
+            <jnombre>Lucas Vázquez</jnombre>
+            <nacionalidad>Español</nacionalidad>
+        </jugador>
+    </equipo>
+</equipos>

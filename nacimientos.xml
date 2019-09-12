@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "nacimientos.dtd">
+
+<personas>
+  <persona genero="mujer">
+    <nombre>alicia</nombre>
+    <nacimiento>
+      <dia>3</dia>
+      <mes>6</mes>
+      <anyo>98</anyo>
+    </nacimiento> 
+    <direccion>
+      <calle>los peligros</calle>
+      <poblacion>gulapa</poblacion>
+      <provincia>caceres</provincia>
+      <cpostal>45876</cpostal>
+    </direccion>
+  </persona>
+</personas>

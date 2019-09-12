@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE departamentos SYSTEM "depart.dtd">
+<departamentos>
+  <departamento>
+    <nudepart>1</nudepart>
+    <responsables>
+      <responsable>
+        <nombre>ja</nombre>
+        <apellidos>jo</apellidos>
+        <email>com</email>
+        <extension>una</extension>
+      </responsable>
+    </responsables>
+    <personas>
+      <persona>
+        <nombre>ya</nombre>
+        <apellidos>yo</apellidos>
+        <email>tom</email>
+        <extension>ena</extension>
+      </persona>
+    </personas>
+  </departamento>
+</departamentos>

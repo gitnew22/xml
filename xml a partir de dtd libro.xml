@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "libro.dtd">
+<libros>
+          <libro>
+              <portada>
+                  <titulo></titulo>
+                  <edicion></edicion>
+                  <autor>
+                      <nombre></nombre>
+                      <apellidos></apellidos>
+                      <email></email>
+                  </autor>
+                  <editor>
+                      <nombre></nombre>
+                      <apellidos></apellidos>
+                  </editor>
+              </portada>
+              <cuerpo>
+                  <parte>
+                      <titulo></titulo>
+                      <capitulo>
+                          <titulo></titulo>
+                          <lista tipo="num">
+                              <item></item>
+                          </lista>
+                          <seccion>
+                              <titulo></titulo>
+                              <parrafo alinea="just"></parrafo>
+                              <sub-seccion>
+                                  <titulo></titulo>
+                                  <codigo lenguaje="c"></codigo>
+                              </sub-seccion>
+                          </seccion>
+                      </capitulo>
+                  </parte>
+              </cuerpo>
+            </libro>
+</libros>

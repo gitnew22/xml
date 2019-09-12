@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE zapateria SYSTEM "zapateria.dtd">
+<zapateria>
+    <zapato >blanco</zapato>
+    <bota>rojo</bota>
+    <playera>verde</playera>
+    <blanco></blanco>
+    <blanco></blanco>
+    <negro></negro>
+    <azul></azul>
+    <fuxia></fuxia>
+</zapateria>

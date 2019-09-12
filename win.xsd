@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="faq">
+    <xs:complexType>
+      <xs:sequence>
+       <xs:element name="info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" minOccurs="1"/>
+              <xs:element name="autor" minOccurs="1"/>
+              <xs:element name="email" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="version" minOccurs="0" maxOccurs="unbounded"/>
+              <xs:element name="fecha" minOccurs="0" maxOccurs="unbounded" type="xs:date"/>
+            </xs:sequence>
+          </xs:complexType>
+       </xs:element>
+       <xs:element name="par" minOccurs="1" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="q" minOccurs="1" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="qtext" minOccurs="1"/>
+                  <xs:element name="a" minOccurs="1"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+       </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

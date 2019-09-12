@@ -1,0 +1,14 @@
+<!DOCTYPE faq [
+<!ELEMENT faq (info+)>
+<!ELEMENT info (titulo,autor,email,version,fecha,)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT part(Q+)>
+<!ELEMENT Q (qtext,a)
+<!ATTLIST Q id CDATA #REQUIRED>
+<!ELEMENT qtext>
+<!ELEMENT a>
+]>

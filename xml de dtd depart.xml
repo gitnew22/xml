@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<departamentos>
+    <departamento>
+        <nombre_d></nombre_d>
+        <responsable>
+            <nombre></nombre>
+            <apellidos></apellidos>
+            <email></email>
+            <extension></extension>
+        </responsable>
+        <personas>
+            <persona>
+                <nombre></nombre>
+                <apellidos></apellidos>
+                <email></email>
+                <extension></extension>
+            </persona>
+        </personas>
+    </departamento>
+</departamentos>
+
+               

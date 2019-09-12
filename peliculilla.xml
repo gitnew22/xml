@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="peliculilla.xsd">
+    <pelicula genero="terror">
+        <duracion>30</duracion>
+        <actores>
+            <actor>dracula</actor>
+            <actor>franki</actor>
+        </actores>
+        <fecha>12-21-98</fecha>
+        <director>escorsese</director>
+        <titulo>guillotina</titulo>
+    </pelicula>
+    <pelicula genero="aventura">
+        <duracion>40</duracion>
+        <actores>
+            <actor>faraday</actor>
+            <actor>kit dugla</actor>
+        </actores>
+        <fecha>12-01-99</fecha>
+        <director>jhon</director>
+        <titulo>fondo de la tierra</titulo>
+    </pelicula>
+    <pelicula genero="drama">
+        <duracion>50</duracion>
+        <actores>
+            <actor>yeen</actor>
+            <actor>yeek</actor>
+        </actores>
+        <fecha>12-11-58</fecha>
+        <director>escorsese</director>
+        <titulo>divorcio</titulo>
+    </pelicula>
+    <pelicula genero="suspense">
+        <duracion>70</duracion>
+        <actores>
+            <actor>simon</actor>
+            <actor>grum</actor>
+        </actores>
+        <fecha>12-21-98</fecha>
+        <director>escorsese</director>
+        <titulo>susto</titulo>
+    </pelicula>
+</catalogo>

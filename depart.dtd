@@ -1,0 +1,15 @@
+<!ELEMENT departamentos (departamento+)>
+<!ELEMENT departamento (nudepart,resposables,personas)>
+<!ELEMENT nudepart (#PCDATA)>
+<!ELEMENT responsables (responsable+)>
+<!ELEMENT responsable ( nombre,apellidos,email,extension)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT personas (persona+)>
+<!ELEMENT persona (nombre,apellidos,email,extension)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>

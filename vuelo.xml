@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE a:aena SYSTEM "vuelo.dtd">
+<a:aena>
+  <a:aeropuerto>
+    <a:nombre>madrid</a:nombre>
+    <a:fecha>20/12/2013</a:fecha>
+    <a:vuelos>
+      <a:vuelo codigo="V222" estado="E">
+        <a:diario>g</a:diario>
+        <a:origen>new york</a:origen>
+        <a:destino>chicago</a:destino>
+        <a:horaSalida>a las 9:30</a:horaSalida>
+        <a:horaLlegada>a las 11:30</a:horaLlegada>
+      </a:vuelo>
+      <a:vuelo codigo="b3321" estado="E">
+        <a:diario>no</a:diario>
+        <a:origen>new york</a:origen>
+        <a:destino>miami</a:destino>
+        <a:horaSalida>a las 10:15</a:horaSalida>
+        <a:horaLlegada>a las 11:15</a:horaLlegada>
+      </a:vuelo>
+    </a:vuelos>
+  </a:aeropuerto>
+  <o:operadores>
+    <o:operador>
+      <o:nombre>iberia</o:nombre>
+      <o:origen>madrid</o:origen>
+      <o:destino>barcelona</o:destino>
+    </o:operador>
+  </o:operadores>
+</a:aena>

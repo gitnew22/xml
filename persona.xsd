@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="persona" type="tipopersona"/>
+  
+  <!-- Ahora vamos a definir el tipo de dato tipopersona-->
+    <xs:complexType  name="tipopersona">
+      <xs:sequence>
+        <xs:element name="datos" type="info"/>
+        <xs:element name="comentario" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="nacimiento" type="xs:date" use="required"/>
+    </xs:complexType>
+
+  
+    <!-- Ahora vamos a definir el tipo de dato info-->
+  <xs:complexType  name="info">
+       <xs:sequence>
+        <xs:element name="nombre" type="xs:string" />
+        <xs:element name="apellidos" type="xs:string"/>
+        <xs:element name="dni" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  
+</xs:schema>
+

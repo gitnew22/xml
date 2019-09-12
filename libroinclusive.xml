@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="libro.xsd">
+  <codigo>1263</codigo>
+  <direccion>juan de juani,31</direccion>
+  <telefono>983555555</telefono>
+  <propietario>
+    <nombre>juanito</nombre>
+    <telefono>656222111</telefono>
+  </propietario>
+  <libro>
+    <titulo>cien años de soledad</titulo>
+    <autor>gabriel garcia vazquez</autor>
+    <formato>rustica</formato>
+    <publicacion>1967</publicacion>
+    <precio>23,5</precio>
+  </libro>
+</libreria>

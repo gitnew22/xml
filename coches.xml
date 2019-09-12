@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coches_de_segunda_mano[
+<!ELEMENT coches_de_segunda_mano (coche+)>
+<!ELEMENT coche (marca,color,ano_de_fabricacion,precio,cilindrada,n_de_puertas,origen,gasolina_o_diesel)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT ano_de_fabricacion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT cilindrada (#PCDATA)>
+<!ELEMENT n_de_puertas (#PCDATA)>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT gasolina_o_diesel (#PCDATA)>
+]>
+<coches_de_segunda_mano>
+    <coche>
+        <marca>Renault</marca>
+        <color>blanco</color>
+        <ano_de_fabricacion>1998</ano_de_fabricacion>
+        <precio>2000</precio>
+        <cilindrada>1.0</cilindrada>
+        <n_de_puertas>3</n_de_puertas>
+        <origen>nacional</origen>
+        <gasolina_o_diesel>gasolina</gasolina_o_diesel>
+    </coche>
+    <coche>
+        <marca>peugeot</marca>
+        <color>negro</color>
+        <ano_de_fabricacion>2003</ano_de_fabricacion>
+        <precio>3000</precio>
+        <cilindrada>2.0</cilindrada>
+        <n_de_puertas>5</n_de_puertas>
+        <origen>nimportacion</origen>
+        <gasolina_o_diesel>diesel</gasolina_o_diesel>
+    </coche>
+    <coche>
+        <marca>seat</marca>
+        <color>rojo</color>
+        <ano_de_fabricacion>2004</ano_de_fabricacion>
+        <precio>1500</precio>
+        <cilindrada>3.0</cilindrada>
+        <n_de_puertas>4</n_de_puertas>
+        <origen>nacional</origen>
+        <gasolina_o_diesel>gasolina</gasolina_o_diesel>
+    </coche>
+    <coche>
+        <marca>citroen</marca>
+        <color>amarillo</color>
+        <ano_de_fabricacion>2008</ano_de_fabricacion>
+        <precio>4000</precio>
+        <cilindrada>1.5</cilindrada>
+        <n_de_puertas>4</n_de_puertas>
+        <origen>importacion</origen>
+        <gasolina_o_diesel>diesel</gasolina_o_diesel>
+    </coche>
+</coches_de_segunda_mano>

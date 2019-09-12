@@ -1,0 +1,60 @@
+coche:before {
+  display: block;
+  width: 12em;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Coches de seguna mano";
+  margin: -.35em 0px .25em -.25em;
+  padding: .0em .55em;
+  background-color: white;
+  }
+
+marca {
+  display: block;
+  margin: 2em 1em;
+  border: 4px solid #cdf;
+  padding: 0px 1em;
+  background-color: white;
+  }
+
+marca {
+  display: block;
+  margin-bottom: 1em;
+  }
+
+marca {
+  display: block;
+  font-weight: bold;
+  font-size: 150%;
+  }
+color:before {
+    content: "Color:"
+}
+
+color {
+  display: block;
+  }
+
+precio:before {
+  content: "Precio: ";
+  }
+
+precio:after {
+  content: " Euros ";
+  }
+
+precio {
+  display: block;
+  }
+
+gasolina_o_diesel:before {
+  content: "Mean depth: ";
+  }
+
+gasolina_o_diesel:after {
+  content: " m";
+}
+
+origen {display: block;
+}
+

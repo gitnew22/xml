@@ -1,0 +1,11 @@
+<!ELEMENT banco (sucursal+)>
+<!ELEMENT sucursal (cuenta_corriente+,prestamos+)>
+<!ATTLIST sucursal codigo CDATA #REQUIRED>
+<!ELEMENT cuenta_corriente (clientes*,domiciliaciones)>
+<!ATTLIST cuenta_corriente codigo CDATA #REQUIRED>
+<!ELEMENT clientes (operacion,privilegio)>
+<!ATTLIST clientes nif CDATA #REQUIRED>
+<!ELEMENT operacion (#PCDATA)>
+<!ELEMENT privilegio (#PCDATA)>
+<!ELEMENT domiciliaciones (#PCDATA)>
+<!ELEMENT prestamos (#PCDATA)>

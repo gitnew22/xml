@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<matriculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="matriculas.xsd">
+
+    <matricula>
+        <personal>
+          <dni></dni>
+          <nombre></nombre>
+          <titulacion></titulacion>
+          <cursoAcademico></cursoAcademico>
+          <domicilios>
+              <domicilio tipo="familiar">
+                  <nombre>c/principal nº1</nombre>
+              </domicilio>
+              <domicilio tipo="habitual">
+                  <nombre>c/secundaria nº2</nombre>
+              </domicilio>
+          </domicilios>
+        </personal>
+        <pago>
+            <tipoMatricula>matricula ordinaria</tipoMatricula>
+        </pago>
+    </matricula>
+</matriculas> 

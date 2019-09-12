@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona nacimiento="1999-10-20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gente.xsd">
+<datos>
+  <nombre>epep</nombre>
+  <apellidos>garcia</apellidos>
+  <dni>2343384234</dni>
+</datos>
+<comentario>gente</comentario>
+</persona>

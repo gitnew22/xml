@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pagos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:noNamespaceSchemaLocation="pago.xsd">
+  <nombre dni="1234567890">javier</nombre>
+  <fecha>1430-03-03</fecha>
+  <hora>23:44:22</hora>
+  <hora>23:33:22</hora>
+  <precio>123.45</precio>
+  <cantidad>678</cantidad>
+  <pagado>true</pagado>
+</pagos>

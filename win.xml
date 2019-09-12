@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<faq xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="win.xsd">
+  <info>
+    <titulo>windows98</titulo>
+    <autor>fernando</autor>
+    <email>fer@yahoo.com</email>
+    <version>1.0</version>
+    <fecha>1999-05-01</fecha>
+  </info>
+  <par>
+    <q>
+      <qtext>porque?</qtext>    
+      <a>porque si</a>
+    </q>
+    <q>
+      <qtext>porque win95</qtext>
+      <a>porque 95</a>
+    </q>
+  </par>
+</faq>

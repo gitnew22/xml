@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resoluciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="conrestriccionespantalla.xsd">
+  <resolucion nombre="vga" alto="480" ancho="640"/>
+  <resolucion nombre="xga" alto="1024" ancho="768"/>
+  <resolucion nombre="hd" alto="1920" ancho="1080"/>
+  <resolucion nombre="4g" alto="2343" ancho="1123"/>
+  <descripcion>pantalla samsum</descripcion>
+
+</resoluciones>

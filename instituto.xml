@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE p:instituto SYSTEM "instituto.dtd">
+<p:instituto especialidad="ciencias">
+  <p:pas>
+    <p:nombre>rober</p:nombre>
+    <p:apellidos>gutierrez</p:apellidos>
+    <p:puesto>oficial</p:puesto>
+    <p:telefono>49586392323</p:telefono>
+  </p:pas>
+  <profe:profesores>
+    <profe:nombre>jorge</profe:nombre>
+    <profe:apellidos>marcano</profe:apellidos>
+    <profe:puesto>jefe</profe:puesto>
+    <profe:telefono>56903094234</profe:telefono>
+  </profe:profesores>
+  <alu:alumnos>
+    <alu:nombre>pedro</alu:nombre>
+    <alu:apellidos>gutierrez</alu:apellidos>
+    <alu:puesto>gerente</alu:puesto>
+    <alu:telefono>5490690307345</alu:telefono>
+  </alu:alumnos>
+</p:instituto>
+  

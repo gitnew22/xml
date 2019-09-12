@@ -1,0 +1,8 @@
+<!ELEMENT lista_de_personas (persona*)>
+<!ELEMENT persona (nombre,fecha,telefono,numerodelaseguridadsocial,sexo)>
+<!ATTLIST persona nacionalidad CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT numerodelaseguridadsocial (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>

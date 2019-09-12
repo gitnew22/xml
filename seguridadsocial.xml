@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lista_de_personas SYSTEM "seguridadsocial.dtd"> 
+<lista_de_personas>
+  <persona nacionalidad="español">
+    <nombre>jose garcia</nombre>
+    <fecha>25/04/1984</fecha>
+    <telefono>670200342</telefono>
+    <numerodelaseguridadsocial>56468530342423</numerodelaseguridadsocial>
+    <sexo>varon</sexo>
+  </persona>
+  <persona nacionalidad="español">
+    <nombre>juan antonio</nombre>  
+    <fecha>25/04/1984</fecha>
+    <telefono>670200342</telefono>
+    <numerodelaseguridadsocial>37447332844472</numerodelaseguridadsocial>
+    <sexo>varon</sexo>
+  </persona>
+</lista_de_personas>

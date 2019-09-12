@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coches SYSTEM "concesionario.dtd">
+<coches>
+  <coche numbastidor="p234">
+    <carroceria>
+      <color tipo="metalizado">rojo</color>
+     <numpuertas>4</numpuertas>
+      <cabrio></cabrio>
+    </carroceria>
+    <motor>
+      <cilindrada>5</cilindrada>
+      <cv>2</cv>
+      <cgasolina>6 litros</cgasolina>
+    </motor>
+    <especificaciones>
+      <marca>rover</marca>
+      <modelo>mini</modelo>
+      <estado id="km0"></estado>
+    </especificaciones>
+  </coche>
+</coches>

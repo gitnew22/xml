@@ -1,0 +1,7 @@
+<!ELEMENT inversiones (p:pais+)>
+<!ELEMENT p:pais (p:capital,d:capital)>
+<!ATTLIST p:pais xmlns:p CDATA #FIXED "http://es.wiki/espacio/capitalp">
+<!ATTLIST p:pais xmlns:d CDATA #FIXED "http://es.wiki/espacio/capitald">
+<!ATTLIST p:pais p:nombre CDATA #REQUIRED>
+<!ELEMENT p:capital (#PCDATA)>
+<!ELEMENT d:capital (#PCDATA)>

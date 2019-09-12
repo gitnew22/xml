@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "librito.dtd">
+<libro id="1">
+  <titulo>hola</titulo>
+  <contenido>
+    <capitulo materia="lengua">
+      <tema>que tal</tema>    
+      <seccion apartados="del 1 al 10" dificil="del 10 al 20"></seccion>
+    </capitulo>
+    <separacion></separacion>  
+  </contenido>
+ <copyright>no se puede copiar</copyright> 
+</libro>

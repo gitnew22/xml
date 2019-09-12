@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cds_en_oferta>
+    <cd_musica>
+        <titulo>still got the blues</titulo>
+        <artista>gary moore</artista>
+        <pais>uk</pais>
+        <compañia_discografica>virgin records</compañia_discografica>
+        <precio>10,20</precio>
+        <año_de_publicacion>1990</año_de_publicacion>
+    </cd_musica>
+    <cd_musica>
+        <titulo>one night only</titulo>
+        <artista>bee gees</artista>
+        <pais>uk</pais>
+        <compañia_discografica>polidor</compañia_discografica>
+        <precio>10,90</precio>
+        <año-de_publicacion>1998</año-de_publicacion>
+    </cd_musica>
+    <cd_musica>
+        <titulo>when a man loves a woman</titulo>
+        <artista>percy sledge</artista>
+        <pais>usa</pais>
+        <compañia_discografica>atlantic</compañia_discografica>
+        <precio>8,70</precio>
+        <año_de_publicacion>1987</año_de_publicacion>
+    </cd_musica>
+    <cd_musica>
+        <titulo>big willie style</titulo>
+        <artista>will smith</artista>
+        <pais>usa</pais>
+        <compañia_discografica>columbia</compañia_discografica>
+        <precio>9,90</precio>
+        <año_de_publicacion>1997</año_de_publicacion>
+    </cd_musica>
+    <cd_musica>
+        <titulo>la cancion de juan perro</titulo>
+        <artista>radio futura</artista>
+        <pais>españa</pais>
+        <compañia_discografica>sony music-ariola</compañia_discografica>
+        <precio>9,90</precio>
+        <año_de_publicacion>1987</año_de_publicacion>
+    </cd_musica>
+    <cd_musica>
+        <titulo>the doc of the bay</titulo>
+        <artista>otis redding</artista>
+        <pais>usa</pais>
+        <compañia_discografica>atlantic</compañia_discografica>
+        <precio>7,90</precio>
+        <año_de_publicacion>1987</año_de_publicacion>
+    </cd_musica>
+</cds_en_oferta>

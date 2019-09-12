@@ -1,0 +1,26 @@
+
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="heladeria.xsd">
+    <helado>
+        <fresa/>
+        <chocolate/>
+    </helado>
+    <helado>
+        <vainilla/>
+        <chocolate/>
+    </helado>
+</heladeria>
+
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="heladeria.xsd">
+    <helado>
+        <fresa/>
+        <chocolate/>
+   </helado>
+    <helado>
+        <vainilla/>
+        <chocolate/>
+    </helado>
+</heladeria>
+>>>>>>> fcac7ec615b617e9deaa29bbb73da82ee9fdc546

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE musicos SYSTEM "musico.dtd">
+<musicos>
+  <musico>
+    <apodo>El Puma</apodo>
+    <fechaNacimiento>cuando reinaba carolo</fechaNacimiento>
+  </musico>
+  <musico>
+    <nombre>pepe rodriguez</nombre>
+    <fechaNacimiento>ayer</fechaNacimiento>
+  </musico>
+</musicos>

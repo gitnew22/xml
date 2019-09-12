@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa [
+<!ELEMENT empresa (empleados)>
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (primer_nombre,apellido,numero_de_contacto,correo_electronico, direccion)>
+<!ELEMENT primer_nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT numero_de_contacto (#PCDATA)>
+<!ELEMENT correo_electronico (#PCDATA)>
+<!ELEMENT direccion (ciudad,estado,zip)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+]>
+<empresa>
+    <empleados>
+        <empleado>
+            <primer_nombre>roman</primer_nombre>
+            <apellido>perez</apellido>
+            <numero_de_contacto>1234</numero_de_contacto>
+            <correo_electronico>romanperez@gmail.com</correo_electronico>
+            <direccion>
+                <ciudad>santander</ciudad>
+                <estado>españa</estado>
+                <zip>39000</zip>
+            </direccion>
+        </empleado>
+        <empleado>
+            <primer_nombre>astur</primer_nombre>
+            <apellido>carrera</apellido>
+            <numero_de_contacto>2345</numero_de_contacto>
+            <correo_electronico>
+            asturcarrera@gmail.com
+            </correo_electronico>
+            <direccion>
+                <ciudad>santander</ciudad>
+                <estado>españa</estado>
+                <zip>39000</zip>
+            </direccion>
+        </empleado>
+    </empleados>
+</empresa>

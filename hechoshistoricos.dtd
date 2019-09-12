@@ -1,0 +1,7 @@
+<!ELEMENT hechos_historicos (hecho_historico+)>
+<!ELEMENT hecho_historico (fecha+)>
+<!ATTLIST hecho_historico descripcion CDATA #REQUIRED>
+<!ELEMENT fecha (dia,mes,anio)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>

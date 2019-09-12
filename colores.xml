@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="colores.css"?>
+<!DOCTYPE mezcla_de_colores[
+<!ELEMENT mezcla_de_colores (mezcla*)>
+<!ELEMENT mezcla (tono*,color?)>
+<!ATTLIST mezcla resultado CDATA #EMPTY>
+<!ELEMENT tono (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+]> 
+<mezclas_de_colores>
+    <mezcla resultado="naranja">
+        <tono>claro</tono>
+        <color>rojo</color>
+        <color>amarillo</color>
+    </mezcla>
+    <mezcla resultado="gris">
+        <tono>oscuro</tono>
+        <color>negro</color>
+        <color>blanco</color>
+    </mezcla>
+    <mezcla resultado="verde claro">
+        <tono>claro</tono>
+        <color>amarillo</color>
+        <color>azul</color>
+        <color>blanco</color>
+    </mezcla>
+</mezclas_de_colores>

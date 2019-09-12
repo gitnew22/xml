@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<agenda>
+  <contacto>
+    <nombre>pijimodo</nombre>
+    <telefonoFijo>23442494</telefonoFijo>
+    <movil>23494</movil>
+  </contacto>
+  <contacto>
+    <nombre>perrio</nombre>
+    <telefonoFijo>2344768694</telefonoFijo>
+    <telefonoFijo>68694</telefonoFijo>
+    <movil>2346445494</movil>
+    <movil>2345494</movil>
+    <movil>334923094823</movil>
+  </contacto>
+  <contacto>
+    <nombre>perrio</nombre>
+    <telefonoFijo>2344768694</telefonoFijo>
+    <telefonoFijo>68694</telefonoFijo>
+    <movil>4534534</movil>
+  </contacto>
+</agenda>

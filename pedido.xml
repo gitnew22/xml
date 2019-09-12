@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido>
+        <destinatario>Juan Delgado Martinez</destinatario>
+        <articulo>bicicleta a2023</articulo>
+        <direccion>calle barco tercero letra A</direccion>
+        <fecha>19-05-2000</fecha>
+    </pedido>
+</pedidos>

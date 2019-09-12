@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria>
+    <libro>
+        <titulo>El nombre del viento</titulo>
+        <autor>
+            <nombre>Patrick</nombre>
+            <apellido>Rothfuss</apellido>
+            <fecha_nac>06/06/1973</fecha_nac>
+        </autor>
+        <precio>10.40€</precio>
+        <genero>Fantasia</genero>
+        <editorial>DeBols!llo</editorial>
+        <ano_publicacion>2007</ano_publicacion>
+    </libro>
+    <libro>
+        <titulo>Zombi - Guía de supervivencia</titulo>
+        <autor>
+            <nombre>Max</nombre>
+            <apellido>Brooks</apellido>
+            <fecha_nac>22/05/1972</fecha_nac>
+        </autor>
+        <precio>8.50€</precio>
+        <genero>Humor</genero>
+        <editorial>DeBols!llo</editorial>
+        <ano_publicacion>2008</ano_publicacion>
+    </libro>
+    <libro>
+        <titulo>El cuento de la criada</titulo>
+        <autor>
+            <nombre>Margaret</nombre>
+            <apellido>Atwood</apellido>
+            <fecha_nac>18/11/1939</fecha_nac>
+        </autor>
+        <precio>19.00</precio>
+        <genero>Ciencia ficción</genero>
+        <editorial>Salamandra</editorial>
+        <ano_publicacion>1985</ano_publicacion>
+    </libro>
+</libreria>

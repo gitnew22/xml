@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE especies [
+<!ELEMENT especies (especie+)>
+<!ELEMENT especie (nombre_comun,vegetacion,altura,forma_y_estructura,color_en_primavera,resistencia_a_las_heladas)>
+<!ATTLIST especie nombre CDATA #REQUIRED>
+<!ELEMENT nombre_comun (#PCDATA)>
+<!ELEMENT vegetacion (#PCDATA)>
+<!ELEMENT altura (#PCDATA)>
+<!ELEMENT forma_y_estructura (#PCDATA)>
+<!ELEMENT color_en_primavera (#PCDATA)>
+<!ELEMENT resistencia_a_las_heladas (#PCDATA)>
+]>
+<especies>
+    <especie nombre="acer monspessularum">
+        <nombre_comun>arce de montpelier</nombre_comun>
+        <vegetacion>caducifolio</vegetacion>
+        <altura>de 6 a 10 metros</altura>
+        <forma_y_estructura>copa esferica, tronco principal recto con bifurcaciones.ramaje colgante</forma_y_estructura>
+        <color_en_primavera>haz verde brillante, enves verde blanquecino</color_en_primavera>
+        <resistencia-a-las-eladas>heladas fuertes(hasta-15º)</resistencia-a-las-eladas>
+    </especie>
+    <especie nombre="olea europea">
+        <nombre_comun>olivo</nombre_comun>
+        <vegetacion>peremne</vegetacion>
+        <altura>de 8 a 15 metros</altura>
+        <forma_y_estructura>copa regular. Tronco principal irregular con bifurcaciones.</forma_y_estructura>
+    </especie>
+    <especie nombre="platanus orientalis">
+        <nombre_comun>platano</nombre_comun>
+        <vegetacion>caducifolio</vegetacion>
+        <altura>de 20 a 25 metros</altura>
+        <forma_y_estructura>copa ovoidal, tronco principal recto, ramaje expandido</forma_y_estructura>
+        <color_en_primavera>haz verde medio, enves verde claro</color_en_primavera>
+        <color_en_otoño>ocre</color_en_otoño>
+        <resistencia-a-las-eladas>heladas fuertes(hasta -20ºC)</resistencia-a-las-eladas>
+    </especie>
+    <especie nombre="quercus_ilex">
+        <nombre_comun>encina</nombre_comun>
+        <vegetacion>peremne</vegetacion>
+        <altura>entorno a 25 metros</altura>
+        <forma_y_estructura>copa esferica o eliptica irregular, tronco principal recto, ramaje tortuoso</forma_y_estructura>
+        <color_en_primavera>plateado en hojas jovenes, en hojas antiguas,haz verde oscuro, enves plateado</color_en_primavera>
+        <resistencia-a-las-eladas>heladas fuertes</resistencia-a-las-eladas>
+    </especie>
+</especies>
+    

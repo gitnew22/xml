@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="discos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="grupo" type="tGrupo" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="disco" type="tDisco" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="tGrupo">
+      <xs:sequence>
+        <xs:element name="nombre" type="tTexto"/>
+        <xs:element name="miembro" type="tTexto" maxOccurs="unbounded"/>
+        <xs:element name="nacionalidad" type="tTexto" minOccurs="0"/>
+        <xs:choice minOccurs="0">
+          <xs:sequence>
+            <xs:element name="web" type="tDominio"/>
+            <xs:element name="email" type="tDominio"/>
+          </xs:sequence>
+          <xs:sequence>
+            <xs:element name="calle" type="tTexto"/>
+            <xs:element name="localidad" type="tTexto"/>
+          </xs:sequence>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute ref="nom" use="required"/>      
+  </xs:complexType>
+  <xs:complexType name="tDisco">
+    <xs:sequence>
+      <xs:element name="interprete">
+        <xs:complexType>
+          <xs:attribute ref="nom" use="required"/>
+        </xs:complexType>        
+      </xs:element>
+      <xs:element name="titulo" type="tTexto"/>
+      <xs:element name="discografica" type="tDiscografica" minOccurs="0" default="CBS"/>
+      <xs:element name="anio" type="tAnio"/>
+      <xs:element name="stock" type="tStock"/>
+    </xs:sequence>
+    <xs:attribute name="precio" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:decimal">
+          <xs:fractionDigits value="2"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+  <xs:simpleType name="tDiscografica">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Sony|CBS|SIRE|OTRAS"/>
+    </xs:restriction>    
+  </xs:simpleType>
+  <xs:complexType name="tAnio">
+    <xs:simpleContent>
+      <xs:extension base="tDigitos">
+        <xs:attribute name="mes">
+          <xs:simpleType>
+             <xs:restriction base="xs:string">
+              <xs:pattern value="enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre"/>
+             </xs:restriction>        
+          </xs:simpleType>
+        </xs:attribute>
+    </xs:extension>
+  </xs:simpleContent>   
+  </xs:complexType>
+  <xs:simpleType name="tDigitos">
+    <xs:restriction base="xs:integer">
+      <xs:totalDigits value="4"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tDominio">
+    <xs:restriction base="xs:string">
+      <xs:pattern value=".*ponprecioamimusica.org.*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tTexto">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="tStock">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="200"/>
+    </xs:restriction>
+  </xs:simpleType>
+        <xs:attribute name="nom" type="tTexto"/>      
+</xs:schema>

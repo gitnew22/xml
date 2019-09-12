@@ -1,0 +1,20 @@
+<!ELEMENT p:instituto (p:pas,profe:profesores,alu:alumnos)>
+<!ATTLIST p:instituto xmlns:p CDATA #FIXED "http://es.wiki/espacio/xml/pas">
+<!ATTLIST p:instituto xmlns:profe CDATA #FIXED "http://es.wiki/espacio/xml/profesor">
+<!ATTLIST p:instituto xmlns:alu CDATA #FIXED "http://es.wiki/espacio/xml/alumnos">
+<!ATTLIST p:instituto especialidad CDATA #REQUIRED>
+<!ELEMENT p:pas (p:nombre,p:apellidos,p:puesto,p:telefono)>
+<!ELEMENT p:nombre (#PCDATA)>
+<!ELEMENT p:apellidos (#PCDATA)>
+<!ELEMENT p:puesto (#PCDATA)>
+<!ELEMENT p:telefono (#PCDATA)>
+<!ELEMENT profe:profesores (profe:nombre,profe:apellidos,profe:puesto,profe:telefono)>
+<!ELEMENT profe:nombre (#PCDATA)>
+<!ELEMENT profe:apellidos (#PCDATA)>
+<!ELEMENT profe:puesto (#PCDATA)>
+<!ELEMENT profe:telefono (#PCDATA)>
+<!ELEMENT alu:alumnos (alu:nombre,alu:apellidos,alu:puesto,alu:telefono)>
+<!ELEMENT alu:nombre (#PCDATA)>
+<!ELEMENT alu:apellidos (#PCDATA)>
+<!ELEMENT alu:puesto (#PCDATA)>
+<!ELEMENT alu:telefono (#PCDATA)>

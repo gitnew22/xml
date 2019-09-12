@@ -1,0 +1,15 @@
+<!DOCTYPE cancion [
+<!ELEMENT cancion (titulo,compositores,productores,sello,interprete)>
+<!ATTLIST cancion duracion CDATA #REQUIRED>
+<!ATTLIST cancion anio CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT compositores (compositor+)>
+<!ELEMENT compositor (nombre,apellidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT productores (productor+)>
+<!ELEMENT productor (nombre,apellido)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT sello (#PCDATA)>
+<!ELEMENT interprete (#PCDATA)>
+]>

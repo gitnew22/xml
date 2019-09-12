@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados [
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado (nombre,apellidos,dni?,fijo?,direcciones*)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni EMPTY>
+<!ELEMENT fijo EMPTY>
+<!ELEMENT direcciones (direccion)>
+<!ELEMENT direccion (#PCDATA)>
+]>
+<empleados>
+  <empleado>
+      <nombre>marco</nombre>
+      <apellidos>terron</apellidos>
+      <dni></dni>
+      <fijo></fijo>
+      <direcciones>
+          <direccion>calle cuca nº1</direccion>
+      </direcciones>
+  </empleado>
+  <empleado>
+      <nombre>jorge</nombre>
+      <apellidos>caco</apellidos>
+      <dni></dni>
+      <fijo></fijo>
+      <direcciones>
+          <direccion>calle marga nº3</direccion>
+      </direcciones>
+  </empleado>
+  <empleado>
+      <nombre>fifo</nombre>
+      <apellidos>lupo</apellidos>
+      <dni></dni>
+      <fijo></fijo>
+      <direcciones>
+          <direccion>calle sota nº3</direccion>
+      </direcciones>
+  </empleado>
+</empleados>

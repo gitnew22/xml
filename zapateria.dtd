@@ -1,0 +1,12 @@
+<!ENTITY % p "(fuxia|blanco|negro|gris|azul|verde|amarillo|rojo)+">
+<!ELEMENT zapateria (zapato,bota,playera,%p;)+>
+<!ELEMENT zapato (#PCDATA)>
+<!ELEMENT bota (#PCDATA)>
+<!ELEMENT playera (#PCDATA)>
+<!ELEMENT blanco (#PCDATA)>
+<!ELEMENT negro (#PCDATA)>
+<!ELEMENT gris (#PCDATA)>
+<!ELEMENT azul (#PCDATA)>
+<!ELEMENT verde (#PCDATA)>
+<!ELEMENT amarillo (#PCDATA)>
+<!ELEMENT rojo (#PCDATA)>

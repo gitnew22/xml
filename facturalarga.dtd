@@ -1,0 +1,32 @@
+<!ELEMENT factura (empresa+,cliente+,datos_factura+)>
+<!ATTLIST factura numfactura CDATA #REQUIRED>
+<!ELEMENT empresa (empresa_nombre,direccion,poblacion,provincia,cif)>
+<!ATTLIST empresa telefono CDATA #FIXED "917776688" fax CDATA #FIXED "917776699">
+<!ELEMENT empresa_nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ATTLIST poblacion cod_postal CDATA #REQUIRED>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT cliente (nombrec,direccionc,poblacionc+,provinciac)>
+<!ATTLIST cliente ncliente CDATA #REQUIRED>
+<!ELEMENT nombrec (#PCDATA)>
+<!ELEMENT direccionc (#PCDATA)>
+<!ELEMENT poblacionc (#PCDATA)>
+<!ATTLIST poblacionc cod_postal CDATA #REQUIRED>
+<!ELEMENT provinciac (#PCDATA)>
+<!ELEMENT datos_factura (fecha,linea+,base,cuota_iva,total)>
+<!ATTLIST datos_factura n_ped CDATA #REQUIRED
+                        iva CDATA #REQUIRED
+                        f_pago (efectivo|tarjeta|plazos) #REQUIRED
+                        moneda CDATA #FIXED "euro">
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT linea (ref,descrip,cantidad,precio,importe)>
+<!ELEMENT ref (#PCDATA)>
+<!ELEMENT descrip (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT base (#PCDATA)>
+<!ELEMENT cuota_iva (#PCDATA)>
+<!ELEMENT total (#PCDATA)>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="libreria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="codigo" type="xs:integer">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+              <xs:minInclusive value="1000"/>
+              <xs:maxInclusive value="9999"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element minOcurs="1" name="direccion" type="xs:string"/>
+        <xs:element minOcurs="1" name="telefono" type="xs:string">
+          <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:pattern value="[0-9] {9}"/>
+                  </xs:restriction>
+                </xs:simpleType>
+        </xs:element>
+        <xs:element minOcurs="1" name="propietario" type="xs:string">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOcurs="1" name="nombre" type="xs:string"/>
+              <xs:element name="telefono" minOcurs="0" maxOcurs="unbounded">
+                <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                    <xs:pattern value="[0-9] {9}"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="libro" maxOcurs="unbounded" type="xs:string">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="titulo" minOcurs="1" maxOcurs="unbounded"/>
+                  <xs:element name="autor" minOcurs="1" maxOcurs="unbounded"/>
+                  <xs:element name="formato" minOcurs="0"/>
+                  <xs:element name="publicacion" minOcurs="0"/>
+                  <xs:element name="precio" minOcurs="0"/>
+                  <xs:element name="cantidad" minOcurs="0"/>
+                </xs:sequence>
+              </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

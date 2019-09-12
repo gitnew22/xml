@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE albunesMortadelo SYSTEM "album.dtd">
+<albunesMortadelo>
+  <album nombre="el sulfato atomico" fecha="1969"/>
+  <album nombre="la caja de diez cerrojos" fecha="1971"/>
+  <album nombre="el otro yo del profesor bacterio" fecha="1973"/>
+  <album nombre="los cacharros majaretas" fecha="1974"/>
+</albunesMortadelo>

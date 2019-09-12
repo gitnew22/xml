@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inversiones SYSTEM "capital.dtd">
+<inversiones>
+  <p:pais p:nombre="españa">
+    <p:capital>madrid</p:capital>  
+    <d:capital>3000</d:capital>
+  </p:pais>
+</inversiones>

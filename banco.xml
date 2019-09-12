@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco SYSTEM "banco.dtd">
+<banco>
+  <sucursal codigo="1">
+    <cuenta_corriente codigo="2">
+      <clientes nif="345095345">
+        <operacion></operacion>
+        <privilegio></privilegio>
+      </clientes>
+      <domiciliaciones></domiciliaciones>
+    </cuenta_corriente>
+    <prestamos></prestamos>
+  </sucursal>
+</banco>

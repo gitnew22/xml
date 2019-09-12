@@ -1,0 +1,20 @@
+<!ELEMENT a:aena (a:aeropuerto+,o:operadores)>
+<!ATTLIST a:aena xmlns:a CDATA #FIXED "http://es.wiki/espacio/nombre/aeropuerto">
+<!ATTLIST a:aena xmlns:o CDATA #FIXED "http:// es.wiki/espacio/nombre/operador">
+<!ELEMENT a:aeropuerto (a:nombre,a:fecha,a:vuelos)>
+<!ELEMENT a:nombre (#PCDATA)>
+<!ELEMENT a:fecha (#PCDATA)>
+<!ELEMENT a:vuelos (a:vuelo+)>
+<!ELEMENT a:vuelo (a:diario,a:origen,a:destino,a:horaSalida,a:horaLlegada)>
+<!ATTLIST a:vuelo codigo ID #REQUIRED>
+<!ATTLIST a:vuelo estado (C | E | R) "E">
+<!ELEMENT a:diario (#PCDATA)>
+<!ELEMENT a:origen (#PCDATA)>
+<!ELEMENT a:destino (#PCDATA)>
+<!ELEMENT a:horaSalida (#PCDATA)>
+<!ELEMENT a:horaLlegada (#PCDATA)>
+<!ELEMENT o:operadores (o:operador+)>
+<!ELEMENT o:operador (o:nombre,o:origen+,o:destino+)>
+<!ELEMENT o:nombre (#PCDATA)>
+<!ELEMENT o:origen (#PCDATA)>
+<!ELEMENT o:destino (#PCDATA)>

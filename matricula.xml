@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula SYSTEM "matricula.dtd">
+
+<matricula>
+ <personal>
+    <dni>99223366M</dni>
+    <nombrep>Juan Pardo Martín</nombrep>
+    <titulacion>Ingeniería Informática</titulacion>
+    <curso_academico>1997/1998</curso_academico>
+    <domicilios>
+      <domicilio tipo="Familiar">
+        <nombre></nombre>
+      </domicilio>
+      <domicilio tipo="Habitual">
+        <nombre></nombre>
+      </domicilio>
+    </domicilios>
+  </personal>
+  <pago>
+    <tipo matricula="">matricula mensual</tipo>
+  </pago> 
+</matricula>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+ <xs:element name="resoluciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="resolucion" maxOccurs="unbounded"/>
+        <xs:element name="precio"></xs:element>
+        <xs:element name="descripcion"></xs:element>
+      </xs:sequence>
+      <xs:attribute name="nombre">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="vga"/>
+            <xs:enumeration value="xga"/>
+            <xs:enumeration value="hd"/>
+            <xs:enumeration value="4g"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="alto">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="480"/>
+            <xs:enumeration value="1024"/>
+            <xs:enumeration value="1920"/>
+            <xs:enumeration value="2343"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="ancho"/>
+    </xs:complexType> 
+ </xs:element>
+</xs:schema>

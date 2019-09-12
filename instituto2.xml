@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instituto SYSTEM "instituto2.dtd">
+<instituto>
+  <nombre>lio</nombre>
+  <direccion>kyjh</direccion>
+  <profesores>
+    <profesor>
+      <nompro>dfv</nompro>
+      <profepro>ghh</profepro>
+      <telpro tipo="fijo">688898456</telpro>
+      <telpro tipo="movil">688898456</telpro>
+   </profesor>
+  </profesores>
+  <alumnos>
+    <alumno>
+      <nombrealu>yuyu</nombrealu>
+      <apellido1>hgfhy</apellido1>
+      <apellido2>eerre</apellido2>
+      <foto archivo="jpg"/>
+      <telefono tipo="movil">3453534</telefono>
+       <telefono tipo="fijo">34535876834</telefono>
+    </alumno>
+  </alumnos>
+  </instituto>
