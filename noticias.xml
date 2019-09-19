@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE noticias SYSTEM "noticias.dtd">
+<noticias>
+  <noticia dia="1" mes="2" anyo="4">
+    <titulo>re</titulo>
+    <autor>we</autor>
+    <url direccion="c/">ghgh</url>
+    <texto>erter</texto>
+    <foto></foto>
+  </noticia>
+</noticias>

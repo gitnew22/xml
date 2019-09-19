@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<atomos
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="atomos.xsd">
+  <atomo>
+    <nombre estado="gas">Hidrogeno</nombre>
+    <simbolo>H</simbolo>
+    <numAtomico>1</numAtomico>
+    <pesoAtomico>1.00794</pesoAtomico>
+    <puntoEbullicion unidades="kelvin">"20.28"</puntoEbullicion>
+    <densidad unidades="gramos/centimetros cubicos">"0.0899"</densidad>
+  </atomo>
+</atomos>

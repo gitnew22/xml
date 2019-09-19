@@ -1,0 +1,12 @@
+<!ELEMENT noticias (noticia*)>
+<!ELEMENT noticia (titulo, autor, url, texto?, foto?)>
+<!ATTLIST noticia
+          anyo CDATA #REQUIRED
+          dia CDATA #REQUIRED
+          mes CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ATTLIST url direccion CDATA #REQUIRED>
+<!ELEMENT texto (#PCDATA)>
+<!ELEMENT foto (#PCDATA)>

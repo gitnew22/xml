@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="atomos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="atomo"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="atomo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element name="simbolo">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="[A-Z][a-z]*[a-z]*"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="numAtomico" type="xs:string"/>
+        <xs:element name="pesoAtomico" type="xs:string"/>
+        <xs:element ref="puntoEbullicion" />
+        <xs:element ref="densidad"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombre">
+    <xs:complexType mixed="true">
+      <xs:attribute name="estado" use="required">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:pattern value="solido|liquido|gas"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="puntoEbullicion">
+    <xs:complexType mixed="true">
+      <xs:attribute name="unidades">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="kelvin|centigrados"/>
+        </xs:restriction>
+      </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="densidad">
+    <xs:complexType mixed="true">
+      <xs:attribute name="unidades" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
